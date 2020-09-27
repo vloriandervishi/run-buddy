@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body section h1 h2{
@@ -24,6 +25,7 @@ li {
 header a {
     text-decoration: none;
     color: #fce138;
+    
 }
 
 h2  {
@@ -47,6 +49,7 @@ header nav {
 
 header nav ul li {
     display: inline;
+    margin: 15px;
 }
 
 header nav ul li a {
@@ -61,4 +64,26 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: inline;
+}
+footer div{
+    color: #39a6b2;
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 3.5px ;
+  
+}
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer a{
+    color: #024e76
 }
