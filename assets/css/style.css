@@ -25,6 +25,7 @@ li {
 header a {
     text-decoration: none;
     color: #fce138;
+    padding: 0 33px;
     
 }
 
@@ -102,11 +103,11 @@ footer a{
     border: 3px solid #024e76;
     background-color: #fce138;
     padding:20px; 
-    width: 500px;
+    width: 655px;
     color: #024e76;
     position: absolute;
     bottom: 120px;
-    right: 140px;
+    right: 100px;
     
 }
 .hero-form h3 {
@@ -115,6 +116,7 @@ footer a{
 }
 .hero-form p {
     margin: 5px 0 15px 0;
+   
 }
 .form-input {
     border: 1px solid #024e76;
@@ -129,8 +131,20 @@ footer a{
     margin: 0 5px;
 }
 #name, #email,#phone{
-    width: 90%;
+    width: 100%;
     padding: 8px 2px;
     margin: 1px 0;
     display: inline;
+}
+button
+ {
+    background-color: #024e76;
+    color: #fce138;
+    height: 37px;
+    width: 120px;
+    font-size: 17px;
+    
+}
+.radio_control{
+    
 }
