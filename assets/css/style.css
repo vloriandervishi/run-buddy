@@ -32,15 +32,17 @@ h2  {
     color: #39a6b2;
     font-weight: bold;
     font-size: 20px ;
-    font-family: Arial, Helvetica, sans-serif;s
+    font-family: Arial, Helvetica, sans-serif;
 }
 section  {
     color: #39a6b2;
     font-weight: bold;
     font-size: 20px ;
     font-family: Arial, Helvetica, sans-serif;
+   
     
 }
+
 header nav {
     float: right;
     margin: 7px 0;
@@ -86,4 +88,49 @@ footer h2 {
 }
 footer a{
     color: #024e76
+}
+/* Hero Style Start */
+.hero {
+    background-image: url("../css/images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} 
+/* Hero Style End */
+.hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding:20px; 
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+    
+}
+.hero-form h3 {
+    font-size: 24 px;
+    margin: 0;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+.form-input {
+    border: 1px solid #024e76;
+    display:block ;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.hero-form label {
+    margin: 0 5px;
+}
+#name, #email,#phone{
+    width: 90%;
+    padding: 8px 2px;
+    margin: 1px 0;
+    display: inline;
 }
