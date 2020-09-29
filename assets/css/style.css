@@ -10,6 +10,7 @@
     padding:0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
+    
 }
 .primary-border {
     border-color: #fce138;
@@ -110,7 +111,19 @@ footer a{
     background-size: cover;
     background-position: center;
     position: relative;
+    margin:20px;
+    background-color: white;
+    font-size: 20px;
+    color:blue;
+
 } 
+.hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+}
+
 /* Hero Style End */
 .hero-form {
     border: 3px solid #024e76;
@@ -237,4 +250,39 @@ button{
 .trainer-bio p {
     font-size: 17px;
     line-height: 1.3;
+}
+.reach{
+    text-align: center;
+    background: #024e76;
+
+}
+.reach h2{
+    color: #fce138;
+    line-height: 157px;
+}
+.contact-info iframe{
+    width:400px;
+    height:400px;
+}
+.contact-info div{
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+.contact-info p, .contact-info address {
+    margin: 9px -18px 80px;
+    line-height: 1.4;
+    font-size:20px;
+    font-style:normal;
+}
+.contact-info a{
+    color:#fce138;
+}
+.contact-info h3{
+    color: #fce138;
+    font-size: 32px;
+    margin:0 -20px;
 }
