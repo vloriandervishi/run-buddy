@@ -117,6 +117,18 @@ footer a{
     color:blue;
 
 } 
+.hero-cta {
+   text-align: right;
+   width: 50%;
+   line-height: 2;
+}
+.hero-cta p{
+    color: tan;
+}
+.hero-cta h2 {
+    color: #fce138;
+    
+}
 .hero-secondary {
     margin: 20px;
     background-color: black;
