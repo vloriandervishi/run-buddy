@@ -63,8 +63,12 @@ section  {
 
 header nav {
     
-    margin: 7px 0;
+
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
     
 }
 
@@ -76,7 +80,7 @@ header nav ul li {
 header nav ul li a {
     margin: 0 30 px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 header h1 {
