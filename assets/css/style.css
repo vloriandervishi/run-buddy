@@ -94,23 +94,27 @@ footer div{
     color: #39a6b2;
     float: right;
     line-height: 1.5;
-    text-align: right;
+    
 }
 
 footer {
     background: #fce138;
     width: 100%;
-    padding: 40px 3.5px ;
-  
+    padding: 40px 14.5px ;
+    flex-wrap:wrap;
+    display: flex;
+    flex-direction:column;
 }
 footer h2 {
-    display: inline;
+   
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 footer a{
-    color: #024e76
+    color: #024e76;
+   
+
 }
 /* Hero Style Start */
 .hero {
