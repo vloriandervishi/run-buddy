@@ -3,6 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media screen and (max-width:768px)
+{
+    section{
+        padding: 30px 15px;
+    }
+}
+@media screen and (max-width: 575px){
+    .hero-form button {
+        width:100%;
+    }
+    .section-title{
+        width:95%;
+    }
+    .intro p {
+        width:100%;
+    }
+    .trainer {
+        flex: 0 100%;
+    }
+    .contact-info{
+        text-align:center;
+    }
+    .contact-info >* {
+        flex:0 100%;
+    }
+}
 .section-title {
     font-size: 55px;
     color:#024e76;
@@ -81,9 +107,10 @@ header nav ul li {
 }
 
 header nav ul li a {
-    margin: 0 30 px;
+    padding: 10px 15 px;
     font-weight: lighter;
     font-size: 1.55vw;
+
 }
 
 header h1 {
@@ -193,7 +220,7 @@ footer a{
     width:100%;
     padding: 8px 2px;
     margin: 1px 0;
-    display: inline;
+    display: flex;
 }
 button{
     background-color: #024e76;
@@ -203,7 +230,10 @@ button{
     font-size: 17px;
     
 }
-
+.intro {
+    text-align:center;
+    background-color:#fce138;
+}
 .intro h2 {
     font-size: 55px;
     color: #024e76;
@@ -228,26 +258,54 @@ button{
      margin: 0 auto;
      text-align:center;
  }
- .steps {
-     
-     background: #fce138;
+.step {
+    margin:50px auto;
+    padding-bottom:50px;
+    width:80%;
+    border-bottom: 1px solid #39a6b2;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: space-between;
+
+}
+ .step-text h4 {
+     font-size:26px;
+     line-height: 1.5;
+     color:#024e76;
  }
- 
- .steps h2 {
+ .step h3 {
      font-size: 55px;
      color: #024e76;
      margin-bottom: 35px;
      padding: 0 100px 20px 100px;
      border-bottom: 3px solid;
      border-color: #39a6b2;
+     flex:1 30%;
  }
- .steps span {
-     font-size:38px;
+ .step-text {
+     flex:12;
+ }
+ .step-text p{
+     font-size:18px;
+ }
+ .step-img {
+     flex:1 12%;
+     margin-right: 20px;
+ }
+ .step-img img {
+     max-width: 100%;
+ }
+ .step-info {
+    flex:2 70%;
+    flex-grow:1;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+
 
  }
-.trainers {
-   
-}
+
 .trainer {
     overflow:auto;
 }
@@ -321,4 +379,7 @@ button{
 .flex-row {
     display:flex;
 
+}
+#what-you-do {
+    background-color:#fce138;
 }
