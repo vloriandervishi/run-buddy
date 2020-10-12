@@ -61,7 +61,7 @@ section  {
     
 }
 
-header nav {
+header nav ul{
     
 
     display: flex;
@@ -73,7 +73,7 @@ header nav {
 }
 
 header nav ul li {
-    display: inline;
+   display:inline;
     margin: 15px;
 }
 
@@ -129,7 +129,8 @@ footer a{
     font-size: 20px;
     color:blue;
     flex-direction:row-reverse;
-
+    justify-content: center;
+    flex-wrap:wrap;
 } 
 .hero-cta {
    text-align: right;
@@ -137,6 +138,7 @@ footer a{
    margin:3.5%;
    font-size: 18px;
    line-height:1.3;
+   color:#fff;
 
 }
 .hero-cta p{
@@ -160,7 +162,7 @@ footer a{
     border: 3px solid #024e76;
     background-color: #fce138;
     padding:20px; 
- 
+    
     color: #024e76;
       
 }
