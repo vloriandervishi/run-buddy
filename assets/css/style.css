@@ -119,26 +119,33 @@ footer a{
 /* Hero Style Start */
 .hero {
     background-image: url("../css/images/hero-bg.jpg");
-    height: 600px;
+ 
     background-size: cover;
     background-position: center;
-    position: relative;
-    margin:20px;
+    width:100%;
+    
+    display:flex;
     background-color: white;
     font-size: 20px;
     color:blue;
+    flex-direction:row-reverse;
 
 } 
 .hero-cta {
    text-align: right;
-   width: 50%;
-   line-height: 2;
+   width:35%;
+   margin:3.5%;
+   font-size: 18px;
+   line-height:1.3;
+
 }
 .hero-cta p{
     color: tan;
 }
 .hero-cta h2 {
     color: #fce138;
+    font-style: italic;
+    font-size: 55px;
     
 }
 .hero-secondary {
@@ -153,12 +160,9 @@ footer a{
     border: 3px solid #024e76;
     background-color: #fce138;
     padding:20px; 
-    width: 655px;
+ 
     color: #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 100px;
-    
+      
 }
 .hero-form h3 {
     font-size: 24 px;
@@ -181,7 +185,7 @@ footer a{
     margin: 0 5px;
 }
 #name, #email,#phone{
-    width: 100%;
+    width:100%;
     padding: 8px 2px;
     margin: 1px 0;
     display: inline;
